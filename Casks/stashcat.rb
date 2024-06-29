@@ -1,16 +1,11 @@
 cask "stashcat" do
-  version "4.45.0"
+  version "6.1"
   sha256 :no_check
 
-  url "https://stashcat.s3-de-central.profitbricks.com/installer/StashcatSetup.dmg",
-      verified: "https://stashcat.s3-de-central.profitbricks.com/installer/"
+  url "https://cc.edyou.eu/file/download/StashcatSetup.dmg"
   name "Stashcat"
-  desc "GDPR-compliant secure messenger"
-  homepage "https://stashcat.com/"
-
-  livecheck do
-    skip "unversioned URL"
-  end
+  desc "Secure messenger for organizations"
+  homepage "https://stashcat.com/download-support/app-downloads"
 
   app "Stashcat.app"
 
